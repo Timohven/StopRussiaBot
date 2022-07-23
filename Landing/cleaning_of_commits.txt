@@ -1,0 +1,15 @@
+1. git remote -v
+
+
+2. git log 
+This is all histoty of commits ("q" for exit), take from this needed SHA of our commit
+
+3. git push -f origin a6f719dd825a1af72b3afab579f540fb215991f1:main
+Return to the required commit, where "a6f719dd825a1af72b3afab579f540fb215991f1" is SHA of commit,
+to which you need to return on a remote resource
+
+4. git reset --hard a6f719dd825a1af72b3afab579f540fb215991f1
+Return to the required commit, where "a6f719dd825a1af72b3afab579f540fb215991f1" is SHA of commit,
+to which you need to return on a local resource
+
+After that it is not possible to roll back the changes!!!
